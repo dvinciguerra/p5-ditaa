@@ -1,0 +1,47 @@
+=pod
+
+=head1 Perl Ditaa Command Line Wrapper Class
+
+This implementation provide a way to use ditaa command line in perl using a
+very simple to use and object oriented interface to convert a text in a 
+flowchart image.
+
+
+=head3 How can I test/run?
+
+This class module implementation comes with L<Mojolicious::Lite>
+(http://mojolicio.us) web test.
+
+To run web test you can install Mojolicious web framework using CPAN.
+
+    $ sudo cpan Mojolicious
+
+or...
+
+    $ curl get.mojolicio.us | sh
+
+
+After install mojolicious you can start development web server using the 
+follow command:
+
+    $ morbo index.pl
+
+Now (and if all right), you can access your "Perl Ditaa Web" test at url 
+address http://localhost:3000
+
+
+=head3 Author
+
+2013 (c) Bivee L<http://bivee.com.br>
+
+Daniel Vinciguerra <daniel.vinciguerra@bivee.com.br>
+
+
+=head3 Copyright and License
+
+This software is copyright (c) 2013 by Bivee.
+
+This is a free software; you can redistribute it and/or modify it under the same terms of Perl 5 programming 
+languagem system itself.
+
+=cut
